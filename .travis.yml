@@ -6,6 +6,7 @@
 
   install:
     - composer install
+    - composer require friendsofphp/php-cs-fixer
 
   before_script: true
 
