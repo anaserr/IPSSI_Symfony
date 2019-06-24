@@ -8,6 +8,7 @@
 
   before_script: true
 
-  script: true
+  script:
+      - phpunit
 
   after_script: true
