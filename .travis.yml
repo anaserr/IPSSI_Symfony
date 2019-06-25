@@ -11,6 +11,6 @@
 
   script:
       - phpunit tests
-      - ./vendor/bin/php-cs-fixer --dry-run --diff
+      - ./vendor/bin/php-cs-fixer fix --dry-run --diff --verbose
 
   after_script: true
