@@ -18,3 +18,5 @@
       - ./vendor/bin/php-cs-fixer fix --dry-run --diff --verbose
 
   after_script: true
+  deploy:
+
