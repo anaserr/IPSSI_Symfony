@@ -11,5 +11,6 @@
 
   script:
       - phpunit tests
+      - ./vendor/bin/php-cd-fixer --dry-run --diff
 
   after_script: true
