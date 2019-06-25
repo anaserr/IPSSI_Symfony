@@ -10,6 +10,6 @@ class HomeController
 {
     public function handle(): Response
     {
-        return new Response('ok');
+        return new Response('<h1>Welcome to a continuous deployment server  </h1>');
     }
 }
